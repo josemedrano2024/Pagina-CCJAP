@@ -1,0 +1,157 @@
+body{
+    background-color: aqua;
+}
+
+h3{
+    text-align: center;
+}
+
+.carousel-item img {
+    height: 400px; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+.custom-navbar {
+  padding: 0.8rem 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo-dinamico {
+  transition: transform 0.3s ease;
+}
+.logo-dinamico:hover {
+  transform: scale(1.08); 
+ }
+
+.custom-link {
+  position: relative;
+  font-weight: 500;
+  color: #555 !important;
+  margin: 0 15px; 
+  transition: color 0.3s ease;
+}
+
+.custom-link:hover {
+  color: #0d6efd !important;
+}
+
+.custom-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #0d6efd;
+  transition: width 0.3s ease-in-out;
+}
+
+.custom-link:hover::after {
+  width: 100%;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f9ff;
+}
+
+header{
+
+    color:#4A90E2;
+    text-align:center;
+    padding:25px;
+}
+
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+.contacto{
+    max-width:1000px;
+    margin:50px auto;
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.info, .formulario{
+    background:#4A90E2;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.1);
+    width:450px;
+}
+
+h2{
+    color: white;
+    margin-bottom:20px;
+}
+
+.info p{
+    margin-bottom:15px;
+    color:white;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:2px solid #ddd;
+    border-radius:8px;
+}
+
+textarea{
+    color: black;
+    resize:none;
+    height:120px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background: #2731F5;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#357ABD;
+}
+
+footer{
+    background:#357ABD;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
