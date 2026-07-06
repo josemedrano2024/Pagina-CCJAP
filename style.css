@@ -2,7 +2,7 @@
   --primary-color: #0d47a1;
   --secondary-color: #1565c0;
   --accent-color: #ffb300;
-  --dark-text: #212529;
+  --dark-text: black;
   --light-bg: #f8f9fa;
   --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
