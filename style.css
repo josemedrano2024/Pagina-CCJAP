@@ -340,6 +340,7 @@ h1 {
 .competencia-section {
   background-color: var(--light-bg);
   padding: 60px 0;
+  margin-top: -40px;
 }
 
 .CC {
@@ -347,4 +348,11 @@ h1 {
   text-align: center;
   color: var(--primary-color);
   margin-bottom: 40px;
+}
+
+.cert {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
