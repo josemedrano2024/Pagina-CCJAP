@@ -356,3 +356,17 @@ h1 {
   object-fit: cover;
   margin-bottom: 15px;
 }
+
+h6 {
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.NA{
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
