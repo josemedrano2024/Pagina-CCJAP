@@ -17,7 +17,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top shadow-sm">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="src/Logo.png" alt="Logo" width="50" height="50" class="logo-dinamico me-2" loading="lazy">
+        <img src="src/Logo.png" alt="Logo" width="50" height="50" class="logo-dinamico me-2">
         <span class="navbar-title d-none d-sm-inline">CCJAP</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,18 +28,20 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="competencias.html">Competencias y Certificaciones</a></li>
-          <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#niveles">Niveles Académicos</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="hero-video-section">
-    <video autoplay loop muted playsinline preload="auto" class="hero-video-bg" poster="src/vision.jpg">
-      <source src="src/video-institucional.webm" type="video/webm">
-      <source src="src/video-institucional.mp4" type="video/mp4">
-      Tu navegador no soporta el tag de video.
-    </video>
+ <header class="hero-video-section">
+    <div class="hero-video-wrapper">
+      <video autoplay loop muted playsinline preload="auto" class="w-100 h-100" style="object-fit: cover; filter: brightness(65%);">
+        <source src="https://res.cloudinary.com/uhw2wkvu/video/upload/ACTO_CIVICO_-_Trim_mzvtbv.webm" type="video/webm">
+        <source src="https://res.cloudinary.com/uhw2wkvu/video/upload/ACTO_CIVICO_-_Trim_mzvtbv.mp4" type="video/mp4">
+        Tu navegador no soporta videos en HTML5.
+      </video>
+    </div>
 
     <div class="hero-video-overlay d-flex align-items-center justify-content-center">
       <div class="container bg-dark-overlay py-5 rounded-4 text-center text-white">
@@ -55,7 +57,7 @@
       <div class="col-md-6">
         <div class="card h-100 card-custom shadow-sm">
           <div class="card-img-container">
-            <img src="src/vision.jpg" class="card-img-top" alt="Visión Institucional" loading="lazy">
+            <img src="src/vision.jpg" class="card-img-top" alt="Visión Institucional">
           </div>
           <div class="card-body p-4">
             <div class="icon-box mb-3 text-primary"><i class="fa-solid fa-eye fa-2x"></i></div>
@@ -69,7 +71,7 @@
       <div class="col-md-6">
         <div class="card h-100 card-custom shadow-sm">
           <div class="card-img-container">
-            <img src="src/Mision.jpg" class="card-img-top" alt="Misión Institucional" loading="lazy">
+            <img src="src/Mision.jpg" class="card-img-top" alt="Misión Institucional">
           </div>
           <div class="card-body p-4">
             <div class="icon-box mb-3 text-success"><i class="fa-solid fa-bullseye fa-2x"></i></div>
@@ -334,8 +336,8 @@
                 class="fa-brands fa-instagram"></i></a>
             <a href="https://www.youtube.com/@CCJAPOFICIAL" class="text-white fs-4"><i
                 class="fa-brands fa-youtube"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=50360521367&token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjEyNSJ9.eyJleHAiOjE3ODMxOTU0MzAsInBob25lIjoiNTAzNjA1MjEzNjciLCJ0ZXh0IjoiIiwiY29udGV4dCI6IkFmaGtqcEhKYVdXS3FRNzBJRWZ0NkUyLVZ3SEdSWFhiaTJVMWpBRFJSMXBXdzBfRi1PX2RTdFUyZkVZUkprNTV1eEswaGxYRlBZSURRVWpxZF9aY0FuZDVjc1dzaHFyemxGY0VMMkkyYVZtVDFYanY0RDA5S0tUMUUydkVVMW9Vc1U4MnEzRTJyM29EeVFCb3N3Iiwic291cmNlIjoiIiwiYXBwIjoiZmFjZWJvb2sifQ.2wX74as7HM1SRgVK5n1yKR-E79JyYp2zPaymlY4YtNMtks7PAqU8sQ-yZo9mOxjNvr_wlEKHn82iJoKHevKYtA"
-              class="text-white fs-4"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=50360521367" class="text-white fs-4"><i
+                class="fa-brands fa-whatsapp"></i></a>
             <a href="https://x.com/ccjapoficial" class="text-white fs-4"><i class="fa-brands fa-twitter"></i></a>
           </div>
         </div>
