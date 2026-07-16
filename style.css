@@ -370,3 +370,18 @@ h6 {
   margin-bottom: 40px;
   margin-top: 40px;
 }
+
+.CA {
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.actividades-section {
+  background-color: var(--light-bg);
+  padding: 60px 0;
+  margin-top: -40px;
+}
+
