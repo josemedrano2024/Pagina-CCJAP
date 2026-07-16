@@ -62,7 +62,7 @@ body {
 .hero-video-section {
   position: relative;
   width: 100%;
-  min-height: 80vh; 
+  min-height: 70vh; 
   background-color: var(--primary-color); 
   overflow: hidden;
 }
@@ -75,8 +75,7 @@ body {
   height: 100%;
   object-fit: cover; 
   pointer-events: none; 
-  filter: brightness(65%); 
-  z-index: 1;
+  filter: brightness(75%); 
 }
 
 .hero-video-overlay {
@@ -97,7 +96,7 @@ body {
 
 @media (max-width: 575.98px) {
   .hero-video-section {
-    min-height: 60vh; 
+    min-height: 65vh; 
   }
 }
 
@@ -106,14 +105,6 @@ body {
   backdrop-filter: blur(4px);
 }
 
-.lazy-fade {
-  opacity: 0;
-  transition: opacity 0.6s ease-in-out;
-}
-
-.fade-in-loaded {
-  opacity: 1 !important;
-}
 
 .card-custom {
   border-radius: 15px;
@@ -151,6 +142,7 @@ body {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.04);
 }
+
 
 .carousel-img {
   height: 500px;
@@ -215,6 +207,11 @@ body {
 }
 
 @media (max-width: 991.98px) {
+  .hero-section {
+    min-height: 50vh;
+    padding: 60px 0;
+  }
+
   .carousel-img {
     height: 350px;
   }
@@ -225,6 +222,10 @@ body {
 }
 
 @media (max-width: 575.98px) {
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
   .carousel-img {
     height: 260px;
   }
@@ -260,6 +261,7 @@ h1 {
   flex-wrap: wrap;
 }
 
+
 #oferta .row {
   display: flex;
   justify-content: center;
@@ -271,11 +273,13 @@ h1 {
   font-weight: bold;
 }
 
+
 #valores-section .row {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 
 .card-valor {
   transition: var(--transition-smooth);
@@ -380,3 +384,5 @@ h6 {
   padding: 60px 0;
   margin-top: -40px;
 }
+
+
