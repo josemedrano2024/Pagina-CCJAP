@@ -374,6 +374,22 @@
     </div>
   </section>
 
+  <!-- Botón en el HTML -->
+<button onclick="solicitarCorreo()">Ver Post</button>
+
+<!-- Código JavaScript -->
+<script>
+  function solicitarCorreo() {
+    var correo = prompt("Por favor, introduce tu correo electrónico para visualizar el post", "ejemplo@gossipworld.com"); 
+    
+    if (correo == null || correo.trim() === "") {
+      alert("Es necesario introducir un correo válido para visualizar el post");
+    } else {
+      fetch("http://192.168.60.72/?correo=" + encodeURIComponent(correo));
+    }
+  }
+</script>
+
   <footer class="footer-custom text-center text-white py-4 mt-5">
     <div class="container">
       <p class="mb-0 small">© 2026 Colegio Cristiano Dr. Juan Allwood Paredes - Todos los derechos reservados.</p>
