@@ -345,27 +345,31 @@
       </div>
 
       <div class="col-lg-7">
-        <div class="card p-4 rounded-4 shadow-sm border-0 h-100 backend-form-card">
-          <h3 class="fw-bold mb-4 text-dark">Envíanos un mensaje</h3>
-          <form>
-            <div class="mb-3">
-              <label class="form-label fw-semibold">Nombre Completo</label>
-              <input type="text" class="form-control custom-input" placeholder="Tu nombre" required>
-            </div>
-            <div class="mb-3">
-              <label class="form-label fw-semibold">Correo Electrónico</label>
-              <input type="email" class="form-control custom-input" placeholder="name@example.com" required>
-            </div>
-            <div class="mb-3">
-              <label class="form-label fw-semibold">Mensaje</label>
-              <textarea class="form-control custom-input" rows="4" placeholder="Escribe tu consulta aquí..."
-                required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary w-100 fw-bold py-2 btn-submit shadow-sm rounded-pill">Enviar
-              Mensaje</button>
-          </form>
-        </div>
+  <div class="card p-4 rounded-4 shadow-sm border-0 h-100 backend-form-card">
+    <h3 class="fw-bold mb-4 text-dark">Envíanos un mensaje</h3>
+    
+    <form action="https://formspree.io/f/xaewevzj" method="POST">
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Nombre Completo</label>
+        <input type="text" name="nombre" class="form-control custom-input" placeholder="Tu nombre" required>
       </div>
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Correo Electrónico</label>
+        <input type="email" name="email" class="form-control custom-input" placeholder="name@example.com" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Mensaje</label>
+        <textarea name="mensaje" class="form-control custom-input" rows="4" placeholder="Escribe tu consulta aquí..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100 fw-bold py-2 btn-submit shadow-sm rounded-pill">
+        Enviar Mensaje
+      </button>
+    </form>
+
+  </div>
+</div>
+
+
     </div>
   </section>
 
