@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Competencias y Certificaciones</title>
-  <link rel="icon" href="src/Logo.png" type="image/jpg">
+  <title>Competencias y Certificaciones - CCJAP</title>
+  <link rel="icon" href="src/Logo.png" type="image/png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -16,8 +16,8 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="src/Logo.png" alt="Logo" width="50" height="50" class="logo-dinamico me-2">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="src/Logo.png" alt="Logo Colegio Cristiano Dr. Juan Allwood Paredes" width="50" height="50" class="logo-dinamico me-2">
         <span class="navbar-title d-none d-sm-inline">CCJAP</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="competencias.html">Competencias y Certificaciones</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="competencias.html">Competencias y Certificaciones</a></li>
           <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
         </ul>
       </div>
@@ -48,42 +48,47 @@
       <div class="container bg-dark-overlay py-5 rounded-4 text-center text-white">
         <h1 class="Titulo m-0">Colegio Cristiano<br>Dr. Juan Allwood Paredes</h1>
         <p class="lead mt-2">Educando con la palabra de Dios</p>
-        <a href="#contacto" class="btn btn-warning btn-lg mt-3 fw-bold px-4 rounded-pill shadow">Contáctanos</a>
       </div>
     </div>
   </header>
 
-  <section class="competencia-section">
+  <section class="competencia-section py-5">
     <div class="container">
-      <h2 class="CC">Competencias</h2>
+      <h2 class="section-title text-center mb-5">Competencias Tecnológicas</h2>
       <div class="row g-4">
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/3d.png" alt="3d">
-              <h5 class="card-title fw-bold">Competencia en Impresion 3D</h5>
-              <p class="card-text text-muted">Nuestros estudiantes desarrollan habilidades avanzadas en el uso de
-                herramientas tecnológicas, programación y resolución de problemas digitales.</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/3d.png" alt="Icono de Competencia en Impresión y Diseño 3D">
+              <h3 class="h5 card-title fw-bold">Impresión y Diseño 3D</h3>
+              <p class="card-text text-muted">
+                Nuestros estudiantes desarrollan habilidades en modelado tridimensional, pensamiento espacial y prototipado rápido, transformando ideas abstractas en objetos reales.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/drones.png" alt="drones">
-              <h5 class="card-title fw-bold">Competencia en Drones</h5>
-              <p class="card-text text-muted">Nuestros estudiantes participan en laboratorios y proyectos científicos,
-                obteniendo certificaciones que avalan su conocimiento en ciencias naturales.</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/drones.png" alt="Icono de Competencia en Tecnología de Drones">
+              <h3 class="h5 card-title fw-bold">Tecnología de Drones</h3>
+              <p class="card-text text-muted">
+                Fomentamos el aprendizaje de la aerodinámica, principios de física aplicada y programación para el control responsable de vehículos aéreos no tripulados.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/movil.png" alt="movil">
-              <h5 class="card-title fw-bold">Competencia en Aplicaciones Móviles</h5>
-              <p class="card-text text-muted">Nuestros estudiantes participan en laboratorios y proyectos científicos,
-                obteniendo certificaciones que avalan su conocimiento en ciencias naturales.</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/movil.png" alt="Icono de Desarrollo de Aplicaciones Móviles">
+              <h3 class="h5 card-title fw-bold">Desarrollo de Apps Móviles</h3>
+              <p class="card-text text-muted">
+                Capacitamos a los alumnos en lógica de programación, diseño de interfaces de usuario y creación de aplicaciones orientadas a resolver situaciones del entorno.
+              </p>
             </div>
           </div>
         </div>
@@ -92,88 +97,92 @@
     </div>
   </section>
 
-
-  <section class="competencia-section">
+  <section class="competencia-section bg-light py-5">
     <div class="container">
-      <h2 class="CC">Certificaciones</h2>
+      <h2 class="section-title text-center mb-5">Certificaciones Internacionales</h2>
       <div class="row g-4">
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/pp.jpg" alt="powerpoint">
-              <h5 class="card-title fw-bold">Certificación en Microsoft Power Point</h5>
-              <h6 class="card-text text-muted">Ventajas de la certificación en Microsoft Power Point</h6>
-              <p class="card-text text-muted">Mejor manejo de presentaciones orales de alto impacto,Excelente
-                explicación visual de conceptos complejos, Mayor integración de datos investigados sin errores,Defensa
-                de tesis o proyectos finales con seguridad.</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/pp.jpg" alt="Logo de Certificación Microsoft PowerPoint">
+              <h3 class="h5 card-title fw-bold">Microsoft PowerPoint</h3>
+              <h4 class="h6 text-primary fw-semibold mb-2">Ventajas de la certificación:</h4>
+              <p class="card-text text-muted small">
+                Diseño de presentaciones orales de alto impacto, comunicación visual de proyectos complejos y dominio de herramientas avanzadas de animación e integración multimedia.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/word.jpg" alt="word">
-              <h5 class="card-title fw-bold">Certificación en Microsoft Word</h5>
-              <h6 class="card-text text-muted">Ventajas de la certificación en Microsoft Word</h6>
-              <p class="card-text text-muted">Eficiencia en la elaboración de trabajos escritos con formato
-                profesional,Una gestión eficiente de documentos extensos,Colaboración segura en trabajos
-                grupales,Creación de formularios para investigaciones</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/word.jpg" alt="Logo de Certificación Microsoft Word">
+              <h3 class="h5 card-title fw-bold">Microsoft Word</h3>
+              <h4 class="h6 text-primary fw-semibold mb-2">Ventajas de la certificación:</h4>
+              <p class="card-text text-muted small">
+                Redacción estructurada de informes técnicos, gestión de documentos extensos, trabajo colaborativo en red y automatización de formatos académicos.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/excel.png" alt="excel">
-              <h5 class="card-title fw-bold">Certificación en Microsoft Excel</h5>
-              <h6 class="card-text text-muted">Ventajas de la certificación en Microsoft Excel</h6>
-              <p class="card-text text-muted">El análisis de datos experimentales y encuestas,Mejor visualización de
-                resultados con gráficos profesionales,La automatización de cálculos complejos,Modelado de escenarios
-                para proyectos.</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/excel.png" alt="Logo de Certificación Microsoft Excel">
+              <h3 class="h5 card-title fw-bold">Microsoft Excel</h3>
+              <h4 class="h6 text-primary fw-semibold mb-2">Ventajas de la certificación:</h4>
+              <p class="card-text text-muted small">
+                Análisis cuantitativo de datos, cálculo automático mediante fórmulas avanzadas, creación de tablas dinámicas y elaboración de gráficos estadísticos profesionales.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/tj.png" alt="toefel">
-              <h5 class="card-title fw-bold">Certificación en Idioma Ingle TOEFL JR</h5>
-              <h6 class="card-text text-muted">Ventajas de la certificación en Idioma Ingle TOEFL JR</h6>
-              <p class="card-text text-muted">Diagnóstico preciso para una enseñanza personalizada,Base sólida para el
-                éxito en materias bilingües,Desarrollo de habilidades académicas tempranas,Facilita la movilidad escolar
-                internacional.</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/tj.png" alt="Logo de Certificación TOEFL Junior">
+              <h3 class="h5 card-title fw-bold">Idioma Inglés TOEFL Junior</h3>
+              <h4 class="h6 text-primary fw-semibold mb-2">Ventajas de la certificación:</h4>
+              <p class="card-text text-muted small">
+                Medición del nivel de inglés bilingüe en etapas intermedias, consolidación de la fluidez auditiva y lectoescritura alineada a estándares internacionales.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/toefl.png" alt="toefel">
-              <h5 class="card-title fw-bold">Certificación en Idioma Ingle TOEFL</h5>
-              <h6 class="card-text text-muted">Ventajas de la certificación en Idioma Ingle TOEFL</h6>
-              <p class="card-text text-muted">Cumplimiento del requisito de admisión universitaria,Preparación para la
-                exigencia académica real,Exención de cursos de inglés remediales,Habilidades de toma de apuntes y
-                comprensión de conferencias.</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/toefl.png" alt="Logo de Certificación TOEFL Standard">
+              <h3 class="h5 card-title fw-bold">Idioma Inglés TOEFL</h3>
+              <h4 class="h6 text-primary fw-semibold mb-2">Ventajas de la certificación:</h4>
+              <p class="card-text text-muted small">
+                Acreditación oficial para procesos de admisión universitaria nacional e internacional, demostrando solvencia comunicativa en entornos académicos globales.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 card-custom shadow-sm">
-            <div class="card-body p-4 text-center">
-              <img class="cert" src="src/ti.png" alt="toefel">
-              <h5 class="card-title fw-bold">Certificación en Idioma Ingle TOEFL ITP</h5>
-              <h6 class="card-text text-muted">Ventajas de la certificación en Idioma Ingle TOEFL ITP</h6>
-              <p class="card-text text-muted">Herramienta institucional de ubicación precisa,Medición estandarizada del
-                progreso del programa,Requisito de egreso o titulación,Investigación y estudios de correlación.</p>
+          <div class="card h-100 card-custom shadow-sm text-center">
+            <div class="card-body p-4">
+              <img class="cert mb-3" src="src/ti.png" alt="Logo de Certificación TOEFL ITP">
+              <h3 class="h5 card-title fw-bold">Idioma Inglés TOEFL ITP</h3>
+              <h4 class="h6 text-primary fw-semibold mb-2">Ventajas de la certificación:</h4>
+              <p class="card-text text-muted small">
+                Evaluación institucional rigurosa que certifica habilidades avanzadas en comprensión auditiva, estructura gramatical y lectura de nivel universitario.
+              </p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
-
-
-
 
   <footer class="footer-custom text-center text-white py-4 mt-5">
     <div class="container">
